@@ -16,10 +16,10 @@ class Sidebar extends React.Component {
   }
 }
 
-class HeadBox1 extends React.Component {
+class Reviews extends React.Component {
   render() {
     return (
-      <div id="head-box1" class="box">
+      <div id="reviews" class="box">
         <div>
           <h3> Reviews</h3>
           <ul>
@@ -31,10 +31,10 @@ class HeadBox1 extends React.Component {
   }
 }
 
-class HeadBox2 extends React.Component {
+class AverageRating extends React.Component {
   render() {
     return (
-      <div id="head-box2" class="box">
+      <div id="average-rating" class="box">
         <div>
           <h3> Average Rating</h3>
           <ul>
@@ -46,10 +46,10 @@ class HeadBox2 extends React.Component {
   }
 }
 
-class HeadBox3 extends React.Component {
+class SentimentAnalysis extends React.Component {
   render() {
     return (
-      <div id="head-box3" class="box">
+      <div id="sentiment-analysis" class="box">
         <div>
           <h3>Sentiment Analysis</h3>
           <ul>
@@ -62,10 +62,10 @@ class HeadBox3 extends React.Component {
   }
 }
 
-class BodyBox extends React.Component {
+class WebsiteVisitors extends React.Component {
   render() {
     return (
-      <div id="bottom-box" class="box">
+      <div id="website-visitors" class="box">
         <div>
           <h3>Website Visitors</h3>
           <ul>
@@ -82,10 +82,10 @@ class App extends React.Component {
     return (
       <div className="main">
         <Sidebar />
-        <HeadBox1 />
-        <HeadBox2 />
-        <HeadBox3 />
-        <BodyBox />
+        <Reviews/>
+        <AverageRating />
+        <SentimentAnalysis />
+        <WebsiteVisitors />
       </div>
     );
   }
